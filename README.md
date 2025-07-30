@@ -103,6 +103,7 @@ This is a beginner-friendly project for practicing API testing using \*\*Postman
 &nbsp; "message": "User created!"
 
 }
+```
 
 
 💡 Learning Outcome
