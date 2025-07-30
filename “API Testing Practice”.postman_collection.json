@@ -1,0 +1,438 @@
+{
+	"info": {
+		"_postman_id": "81b82605-a80b-494f-bba6-7f578ee3b6ce",
+		"name": "“API Testing Practice”",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47150908",
+		"_collection_link": "https://mirdoddivarshasree-2902973.postman.co/workspace/Varsha's-Workspace~a6f4e731-59d0-420b-8be1-6c474bda8ff5/collection/47150908-81b82605-a80b-494f-bba6-7f578ee3b6ce?action=share&source=collection_link&creator=47150908"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "API 1: Get All Products List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://automationexercise.com/api/productsList",
+							"protocol": "https",
+							"host": [
+								"automationexercise",
+								"com"
+							],
+							"path": [
+								"api",
+								"productsList"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Products list",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://automationexercise.com/api/productsList",
+									"protocol": "https",
+									"host": [
+										"automationexercise",
+										"com"
+									],
+									"path": [
+										"api",
+										"productsList"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 29 Jul 2025 08:47:55 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept,Cookie,Accept-Encoding"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Allow",
+									"value": "POST, PUT, DELETE, GET, OPTIONS"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Phusion Passenger(R) 6.0.23"
+								},
+								{
+									"key": "Status",
+									"value": "200 OK"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=a63kKJdo5L2VC%2B3n8oVLePNfE8jtApG28NC5xWn2s5mCbDhs4UJNzzJiaojRwzIZDAbF2jxlsL7YXabAqZx4AlWV0NZWDmYuXwdpYiEKDFxQ93U6cMm%2BXTpA7RszPM4Xp7o%3D\"}]}"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "Cf-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Nel",
+									"value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "966b5ab11f1ecf2f-SJC"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\"responseCode\": 200, \"products\": [{\"id\": 1, \"name\": \"Blue Top\", \"price\": \"Rs. 500\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 2, \"name\": \"Men Tshirt\", \"price\": \"Rs. 400\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 3, \"name\": \"Sleeveless Dress\", \"price\": \"Rs. 1000\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Dress\"}}, {\"id\": 4, \"name\": \"Stylish Dress\", \"price\": \"Rs. 1500\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Dress\"}}, {\"id\": 5, \"name\": \"Winter Top\", \"price\": \"Rs. 600\", \"brand\": \"Mast & Harbour\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 6, \"name\": \"Summer White Top\", \"price\": \"Rs. 400\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 7, \"name\": \"Madame Top For Women\", \"price\": \"Rs. 1000\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 8, \"name\": \"Fancy Green Top\", \"price\": \"Rs. 700\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 11, \"name\": \"Sleeves Printed Top - White\", \"price\": \"Rs. 499\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 12, \"name\": \"Half Sleeves Top Schiffli Detailing - Pink\", \"price\": \"Rs. 359\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 13, \"name\": \"Frozen Tops For Kids\", \"price\": \"Rs. 278\", \"brand\": \"Allen Solly Junior\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 14, \"name\": \"Full Sleeves Top Cherry - Pink\", \"price\": \"Rs. 679\", \"brand\": \"Kookie Kids\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 15, \"name\": \"Printed Off Shoulder Top - White\", \"price\": \"Rs. 315\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 16, \"name\": \"Sleeves Top and Short - Blue & Pink\", \"price\": \"Rs. 478\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 18, \"name\": \"Little Girls Mr. Panda Shirt\", \"price\": \"Rs. 1200\", \"brand\": \"Kookie Kids\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 19, \"name\": \"Sleeveless Unicorn Patch Gown - Pink\", \"price\": \"Rs. 1050\", \"brand\": \"Allen Solly Junior\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 20, \"name\": \"Cotton Mull Embroidered Dress\", \"price\": \"Rs. 1190\", \"brand\": \"Kookie Kids\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 21, \"name\": \"Blue Cotton Indie Mickey Dress\", \"price\": \"Rs. 1530\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 22, \"name\": \"Long Maxi Tulle Fancy Dress Up Outfits -Pink\", \"price\": \"Rs. 1600\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 23, \"name\": \"Sleeveless Unicorn Print Fit & Flare Net Dress - Multi\", \"price\": \"Rs. 1100\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 24, \"name\": \"Colour Blocked Shirt \\u2013 Sky Blue\", \"price\": \"Rs. 849\", \"brand\": \"Allen Solly Junior\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 28, \"name\": \"Pure Cotton V-Neck T-Shirt\", \"price\": \"Rs. 1299\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 29, \"name\": \"Green Side Placket Detail T-Shirt\", \"price\": \"Rs. 1000\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 30, \"name\": \"Premium Polo T-Shirts\", \"price\": \"Rs. 1500\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 31, \"name\": \"Pure Cotton Neon Green Tshirt\", \"price\": \"Rs. 850\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 33, \"name\": \"Soft Stretch Jeans\", \"price\": \"Rs. 799\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Jeans\"}}, {\"id\": 35, \"name\": \"Regular Fit Straight Jeans\", \"price\": \"Rs. 1200\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Jeans\"}}, {\"id\": 37, \"name\": \"Grunt Blue Slim Fit Jeans\", \"price\": \"Rs. 1400\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Jeans\"}}, {\"id\": 38, \"name\": \"Rose Pink Embroidered Maxi Dress\", \"price\": \"Rs. 2300\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Dress\"}}, {\"id\": 39, \"name\": \"Cotton Silk Hand Block Print Saree\", \"price\": \"Rs. 3000\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Saree\"}}, {\"id\": 40, \"name\": \"Rust Red Linen Saree\", \"price\": \"Rs. 3500\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Saree\"}}, {\"id\": 41, \"name\": \"Beautiful Peacock Blue Cotton Linen Saree\", \"price\": \"Rs. 5000\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Saree\"}}, {\"id\": 42, \"name\": \"Lace Top For Women\", \"price\": \"Rs. 1400\", \"brand\": \"Mast & Harbour\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 43, \"name\": \"GRAPHIC DESIGN MEN T SHIRT - BLUE\", \"price\": \"Rs. 1389\", \"brand\": \"Mast & Harbour\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}]}"
+						},
+						{
+							"name": "API 1: Get All Products List",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://automationexercise.com/api/productsList",
+									"protocol": "https",
+									"host": [
+										"automationexercise",
+										"com"
+									],
+									"path": [
+										"api",
+										"productsList"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 29 Jul 2025 23:38:53 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept,Cookie,Accept-Encoding"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Allow",
+									"value": "DELETE, OPTIONS, GET, POST, PUT"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Phusion Passenger(R) 6.0.23"
+								},
+								{
+									"key": "Status",
+									"value": "200 OK"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=AuxXLpSoUkl3cuNvXG3lQzTtqXTG5PTGXBW0eOx7jUaT9XmfoaIujlGtppu0vcmvNYtnxeXsdo1s682SgGr8gDzGZT15guRAYwtv0PwasSAvkqSb6RZrUuT6HXOZDZBC\"}]}"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "Cf-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Nel",
+									"value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "967073d1aedc87ab-PDX"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\"responseCode\": 200, \"products\": [{\"id\": 1, \"name\": \"Blue Top\", \"price\": \"Rs. 500\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 2, \"name\": \"Men Tshirt\", \"price\": \"Rs. 400\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 3, \"name\": \"Sleeveless Dress\", \"price\": \"Rs. 1000\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Dress\"}}, {\"id\": 4, \"name\": \"Stylish Dress\", \"price\": \"Rs. 1500\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Dress\"}}, {\"id\": 5, \"name\": \"Winter Top\", \"price\": \"Rs. 600\", \"brand\": \"Mast & Harbour\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 6, \"name\": \"Summer White Top\", \"price\": \"Rs. 400\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 7, \"name\": \"Madame Top For Women\", \"price\": \"Rs. 1000\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 8, \"name\": \"Fancy Green Top\", \"price\": \"Rs. 700\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 11, \"name\": \"Sleeves Printed Top - White\", \"price\": \"Rs. 499\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 12, \"name\": \"Half Sleeves Top Schiffli Detailing - Pink\", \"price\": \"Rs. 359\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 13, \"name\": \"Frozen Tops For Kids\", \"price\": \"Rs. 278\", \"brand\": \"Allen Solly Junior\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 14, \"name\": \"Full Sleeves Top Cherry - Pink\", \"price\": \"Rs. 679\", \"brand\": \"Kookie Kids\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 15, \"name\": \"Printed Off Shoulder Top - White\", \"price\": \"Rs. 315\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 16, \"name\": \"Sleeves Top and Short - Blue & Pink\", \"price\": \"Rs. 478\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 18, \"name\": \"Little Girls Mr. Panda Shirt\", \"price\": \"Rs. 1200\", \"brand\": \"Kookie Kids\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 19, \"name\": \"Sleeveless Unicorn Patch Gown - Pink\", \"price\": \"Rs. 1050\", \"brand\": \"Allen Solly Junior\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 20, \"name\": \"Cotton Mull Embroidered Dress\", \"price\": \"Rs. 1190\", \"brand\": \"Kookie Kids\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 21, \"name\": \"Blue Cotton Indie Mickey Dress\", \"price\": \"Rs. 1530\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 22, \"name\": \"Long Maxi Tulle Fancy Dress Up Outfits -Pink\", \"price\": \"Rs. 1600\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 23, \"name\": \"Sleeveless Unicorn Print Fit & Flare Net Dress - Multi\", \"price\": \"Rs. 1100\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 24, \"name\": \"Colour Blocked Shirt \\u2013 Sky Blue\", \"price\": \"Rs. 849\", \"brand\": \"Allen Solly Junior\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 28, \"name\": \"Pure Cotton V-Neck T-Shirt\", \"price\": \"Rs. 1299\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 29, \"name\": \"Green Side Placket Detail T-Shirt\", \"price\": \"Rs. 1000\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 30, \"name\": \"Premium Polo T-Shirts\", \"price\": \"Rs. 1500\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 31, \"name\": \"Pure Cotton Neon Green Tshirt\", \"price\": \"Rs. 850\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 33, \"name\": \"Soft Stretch Jeans\", \"price\": \"Rs. 799\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Jeans\"}}, {\"id\": 35, \"name\": \"Regular Fit Straight Jeans\", \"price\": \"Rs. 1200\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Jeans\"}}, {\"id\": 37, \"name\": \"Grunt Blue Slim Fit Jeans\", \"price\": \"Rs. 1400\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Jeans\"}}, {\"id\": 38, \"name\": \"Rose Pink Embroidered Maxi Dress\", \"price\": \"Rs. 2300\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Dress\"}}, {\"id\": 39, \"name\": \"Cotton Silk Hand Block Print Saree\", \"price\": \"Rs. 3000\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Saree\"}}, {\"id\": 40, \"name\": \"Rust Red Linen Saree\", \"price\": \"Rs. 3500\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Saree\"}}, {\"id\": 41, \"name\": \"Beautiful Peacock Blue Cotton Linen Saree\", \"price\": \"Rs. 5000\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Saree\"}}, {\"id\": 42, \"name\": \"Lace Top For Women\", \"price\": \"Rs. 1400\", \"brand\": \"Mast & Harbour\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 43, \"name\": \"GRAPHIC DESIGN MEN T SHIRT - BLUE\", \"price\": \"Rs. 1389\", \"brand\": \"Mast & Harbour\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}]}"
+						}
+					]
+				},
+				{
+					"name": "https://automationexercise.com/api/productsList",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://automationexercise.com/api/productsList",
+							"protocol": "https",
+							"host": [
+								"automationexercise",
+								"com"
+							],
+							"path": [
+								"api",
+								"productsList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API 3: Get All Brands List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://automationexercise.com/api/brandsList",
+							"protocol": "https",
+							"host": [
+								"automationexercise",
+								"com"
+							],
+							"path": [
+								"api",
+								"brandsList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API 14: GET user account detail by email",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "testuser134@example.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "test123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://automationexercise.com/api/getUserDetailByEmail",
+							"protocol": "https",
+							"host": [
+								"automationexercise",
+								"com"
+							],
+							"path": [
+								"api",
+								"getUserDetailByEmail"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "API 2: POST To All Products List",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Test Product\",\r\n  \"price\": \"999\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://automationexercise.com/api/productsList",
+							"protocol": "https",
+							"host": [
+								"automationexercise",
+								"com"
+							],
+							"path": [
+								"api",
+								"productsList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API 5: POST To Search Product",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "API 6: POST To Search Product without search_product parameter",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "API 7: POST To Verify Login with Valid Details",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "🔹 API 8: POST To Verify Login without Email",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "API 10: POST To Verify Login with invalid details",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "API 11: POST To Create/Register User Account",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PUT",
+			"item": [
+				{
+					"name": "API 4: PUT To All Brands List",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "API 13: PUT METHOD To Update User Account",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DELETE",
+			"item": [
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "API 12: DELETE METHOD To Delete User Account",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
