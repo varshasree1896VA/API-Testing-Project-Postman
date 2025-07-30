@@ -98,9 +98,9 @@ This is a beginner-friendly project for practicing API testing using \*\*Postman
 
 {
 
-&nbsp; "responseCode": 201,
+"responseCode": 201,
 
-&nbsp; "message": "User created!"
+"message": "User created!"
 
 }
 ```
